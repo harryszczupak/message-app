@@ -1,0 +1,25 @@
+.openHours {
+	width: 40%;
+	height: 70%;
+	background-color: white;
+	border-radius: 1rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+
+.openHours .backplate {
+	transform: translateX(100%);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('C:\Users\kuba\Desktop\chuda_szkapa-master\src\components\assets\backdropImage.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 1rem;
+	transition: 0.3s ease-in-out;
+}
+.openHours:hover .backplate {
+	transform: translateX(0%);
+}

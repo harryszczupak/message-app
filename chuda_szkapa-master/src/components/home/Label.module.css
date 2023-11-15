@@ -1,0 +1,16 @@
+.datesHours {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	flex-direction: column;
+}
+.datesInfo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 0 0 0 ;
+	width: 50%;
+	color:white;
+}

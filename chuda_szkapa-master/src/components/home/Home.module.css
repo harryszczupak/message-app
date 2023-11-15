@@ -1,0 +1,28 @@
+.HomeSection {
+	display: flex;
+	background-image: url('C:\Users\kuba\Desktop\chuda_szkapa-master\src\components\assets\background.jpg');
+	background-size: cover;
+	height: 90vh;
+	background-position: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+.lableSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 2rem;
+	height: 70%;
+	padding: 0 0 5rem 0;
+}
+@media only screen and (max-width: 1000px) {
+	.HomeSection,
+	.lableSection {
+		display: flex;
+		flex-direction: column;
+		height: 50%;
+	}
+}

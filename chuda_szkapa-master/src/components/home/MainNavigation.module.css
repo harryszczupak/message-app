@@ -1,0 +1,88 @@
+header {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+	width: 100%;
+}
+nav {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+.leftNav img {
+	width: 100px;
+	height: 100px;
+}
+.rightNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+.rightNav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	font-size: 2rem;
+}
+.active {
+	color: #4d0000;
+}
+.burgerMenu {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 80px;
+	height: 40px;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+}
+.burgerMenu line {
+	width: 50px;
+	height: 10%;
+	background-color: white;
+}
+.shopButt {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	padding: 1.5rem;
+	justify-content: center;
+	height: 3rem;
+	border-radius: 5rem;
+	border: none;
+	font-weight: bolder;
+	color: white;
+	background-color: #660000;
+	font-size: 15px;
+	transition: 0.3s ease-in-out;
+	z-index: 2;
+}
+.shopButt section {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shopButt section span {
+	transition: 0.6s ease-in-out;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 2px;
+	padding: 5px 8px;
+}
+.shopButt:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color: transparent;
+	color: black;
+	border: solid #660000;
+}
+.shopButt:hover section span {
+	background-color: black;
+	color: white;
+}
