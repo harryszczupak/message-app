@@ -9,4 +9,4 @@ const Message = sequelize.define('Messages', {
 	},
 	message: { type: Sequelize.CHAR },
 });
-export default Message
+export default Message;
